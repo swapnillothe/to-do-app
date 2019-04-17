@@ -1,0 +1,3 @@
+[submodule "to-do-app-react"]
+	path = to-do-app-react
+	url = https://github.com/swapnillothe/to-do-app-react.git

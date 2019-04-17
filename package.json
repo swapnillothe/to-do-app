@@ -1,0 +1,22 @@
+{
+    "name": "todoapp",
+    "version": "0.0.1",
+    "description": "my do to app using database ",
+    "main": "app.js",
+    "scripts": {
+        "start": "cd to-do-app-react && npm run build && cd ../ && nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "to-do-app"
+    },
+    "author": "swapnil",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    }
+}
