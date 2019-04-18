@@ -5,9 +5,10 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('to-do-app-react/build'));
 
-
-app.get('/', (req, res) => {
+app.get('/todo', (req, res) => {
+    
     res.send('Todo App');
 });
 
