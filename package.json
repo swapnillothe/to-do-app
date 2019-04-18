@@ -4,7 +4,7 @@
     "description": "my do to app using database ",
     "main": "app.js",
     "scripts": {
-        "start": "cd to-do-app-react && npm run build && cd ../ && nodemon app.js",
+        "start": "cd to-do-app-react && npm run build && cd ../ && node app.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
